@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const STEAM_API_KEY = '';
+const STEAM_API_KEY = 'D7EA583D69A9ACAAB90D1ACAB054C397';
 
 app.use(cors());
 app.use(express.json());
