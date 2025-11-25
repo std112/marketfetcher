@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const STEAM_API_KEY = '3A65CBBFC67CA3976D0B1BA2F496CCCF';
+const STEAM_API_KEY = '72F78F49AF6FE6DB7D201FA6D5D6D0FF';
 
 app.use(cors());
 app.use(express.json());
@@ -46,6 +46,7 @@ app.post('/api/steamProfile', async (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`API running on port ${PORT}`));
+
 
 
 
